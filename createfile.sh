@@ -1,5 +1,6 @@
-#!/bin/bash
+#Create file in $USER/class/batch directory
 
+#!/bin/bash
 if [ ! -d "$HOME/class/batch" ];then
 	mkdir -p "$HOME/class/batch"
 fi
