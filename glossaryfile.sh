@@ -1,5 +1,6 @@
-#!/bin/bash
+#Print the end of a glossary file in reverse order using an array
 
+#!/bin/bash
 read -p "Enter the file name: " file_path
 mapfile -t lines < "$file_path"
 total_lines=${#lines[@]}
