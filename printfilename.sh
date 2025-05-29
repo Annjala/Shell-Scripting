@@ -1,7 +1,9 @@
-#!/bin/bash
+#Print file names in a directory along with the file details
 
+#!/bin/bash
 echo 'To display the list of files in a directory at '$HOME' :'
 read -p "Enter the name of directory: " file
+
 if [ ! -d "$HOME/$file" ]; then
     echo "Directory "$HOME/$file" does not exist."
 else  
