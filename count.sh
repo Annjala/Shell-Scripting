@@ -1,3 +1,5 @@
+#Count lines, words and characters in an input without using wc.
+
 #!/bin/bash
 
 lines=0
@@ -13,7 +15,6 @@ do
     do
         words=$((words + 1))
     done
- 
 done
 
 echo "Number of lines: $lines"
