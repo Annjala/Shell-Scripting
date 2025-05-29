@@ -1,5 +1,6 @@
-#!/bin/bash
+#Check for any running shell scripts
 
+#!/bin/bash
 proc=`ps aux | grep -e "bash\s\w*" | wc -l`
 
 if [[ $proc > 3 ]]
