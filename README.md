@@ -1,5 +1,5 @@
 # Shell-Scripting
- Basic Linux shell script exercises focused on foundational scripting tasks such as system monitoring, file handling, user activity tracking, log monitoring, file integrity checks, and access control.
+ Basic shell script programs focused on foundational scripting tasks such as system monitoring, file handling, user activity tracking, log monitoring, file integrity checks, and access control.
 
 LIST OF PROGRAMS
 
