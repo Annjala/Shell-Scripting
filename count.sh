@@ -1,7 +1,6 @@
 #Count lines, words and characters in an input without using wc.
 
 #!/bin/bash
-
 lines=0
 words=0
 characters=0
