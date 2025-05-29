@@ -1,14 +1,18 @@
-#!/bin/bash
+#Continuously check if a user has logged-in every 30 seconds
 
+#!/bin/bash
 while true; do
 read -p "Enter the username to monitor: " username
+
 while true; do
 timestamp=$(date +"%H:%M:%S")
+
 if who | grep -q "$username"; then
 echo "[$timestamp] User $username is logged in."
 else
 echo "[$timestamp] User $username is not logged in."
 fi
+
 sleep 30
 done
 done
